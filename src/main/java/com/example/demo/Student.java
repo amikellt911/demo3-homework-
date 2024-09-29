@@ -4,9 +4,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Student {
-	String name = "zh";
-	String grade = "good";
-	private String information;
+	String name = "llt";
+	String grade = "third";
+	private String info;
 	public Student() {
 		
 	}
@@ -22,17 +22,17 @@ public class Student {
 	public void setGrade(String grade) {
 		this.grade = grade;
 	}
-	public String getInformation() {
-		return information;
+	public String getInfo() {
+		return info;
 	}
-	public void setInformation(String information) {
-		this.information = information;
+	public void setInfo(String information) {
+		this.info = information;
 	}
 	@Override
 	public String toString() {
 		return "Student [name=" + name + ", grade=" + grade + "]";
 	}
 	public Student(String information) {
-		this.information = information;
+		this.info = information;
 	}
 }

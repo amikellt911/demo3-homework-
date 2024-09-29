@@ -10,9 +10,9 @@ public class Hello {
 	@Autowired
     private Student student;
 
-    @RequestMapping("/school")
+    @RequestMapping("/student")
     public String hello(){
-        return student.getInformation();
+        return student.getInfo();
     }
 
 }

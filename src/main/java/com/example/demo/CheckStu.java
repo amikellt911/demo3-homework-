@@ -16,10 +16,10 @@ public class CheckStu {
     @Bean
     public Student student(){
     	Student sd = new Student();
-        if(sno == 32201185){
+        if(sno == 32201175){
             return new Student(sd.toString());
         } else {
-            return new Student("NOT FOUND");
+            return new Student("404");
         }
     }
 
